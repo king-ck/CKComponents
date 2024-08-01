@@ -4,17 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ckingui": "gulp -f packages/el-components/script/build/index.ts",
+    "publish:ckingui": "gulp -f packages/el-components/script/publish/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/gulp": "^4.0.17",
+    "@types/gulp-autoprefixer": "^0.0.37",
+    "@types/gulp-less": "^0.0.36",
+    "@types/node": "^20.14.9",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/runtime-core": "^3.4.31",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-less": "^5.0.0",
     "less": "^4.2.0",
+    "release-it": "^17.6.0",
+    "sucrase": "^3.35.0",
     "typescript": "^5.5.3",
     "vite": "^5.3.3",
+    "vite-plugin-dts": "1.4.1",
     "vue": "^3.4.31"
   }
 }

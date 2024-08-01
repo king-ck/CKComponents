@@ -1,5 +1,5 @@
 import { defineComponent as r, computed as u, openBlock as a, createElementBlock as p, normalizeClass as s, renderSlot as l } from "vue";
-/* empty css                  */
+import "./style/index.css";
 const y = /* @__PURE__ */ r({
   name: "ck-button",
   __name: "button",
